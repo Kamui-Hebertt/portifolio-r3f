@@ -5,6 +5,8 @@ import { useInView } from "react-intersection-observer";
 
 
 const Hero = () => {
+  const isMobile = window.innerWidth <= 767;
+  const delayTime = isMobile ? 2.8 : 1.8;
 
   const h1variants = {
     visible: {
@@ -14,8 +16,8 @@ const Hero = () => {
         type:'spring',
         bounce: 0.5,
         satisfies:100,
-        duration: 1,
-        delay: 2,
+        duration: 1 ,
+        delay: delayTime,
       },
 
     },
@@ -33,7 +35,7 @@ const Hero = () => {
         bounce: 0.5,
         satisfies:100,
         duration: 0.8,
-        delay: 2.5,
+        delay: delayTime + 0.5,
       },
 
     },
@@ -69,6 +71,13 @@ const Hero = () => {
         className="mt-8 text-3x1 w-3/3 text-center">i'm a full stack web developer 
         </motion.h2>
         </div>  
+        <div className="absolute flex flex-col bottom-[13%] left-[50%] translate-x-[-50%]">
+          <div className="slide-bottom">
+            <div className="down-arrow"></div>
+            <div className="down-arrow"></div>
+            <div className="down-arrow"></div>
+          </div>
+        </div>
 
     </section>
   )

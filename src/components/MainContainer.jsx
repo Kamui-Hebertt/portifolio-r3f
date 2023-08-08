@@ -1,9 +1,10 @@
 import '../index.css';
 import { Canvas } from '@react-three/fiber';
 import ReactLogo from './canvas/ReactLogo';
-import { OrbitControls, Stars } from '@react-three/drei';
+import { OrbitControls, Loader } from '@react-three/drei';
 import StarsAnimated from './StarsAnimated';
 import Hero from './Hero';
+import { Suspense } from 'react';
 
 const MainContainer = () => {
 
@@ -20,9 +21,13 @@ const MainContainer = () => {
       <pointLight intensity={2} color={0x61dbfb} position={[0, 5, 5]} />
       <spotLight intensity={1} color={0x61dbfb} position={(-20, 50, 10)} />
       <OrbitControls />
+      <Suspense fallback={null}>
       <ReactLogo />
+      </Suspense>
       <StarsAnimated />
-    </Canvas><Hero /></>
+    </Canvas>
+    <Loader />
+    <Hero /></>
   )
 }
 

@@ -31,7 +31,7 @@ const ReactLogo = () => {
       <primitive
       object={reactLogo.scene}
       rotation={[0, -5, 0]}
-      scale={0.65} />
+      scale={0.60} />
 
     
     </mesh>

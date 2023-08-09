@@ -8,6 +8,8 @@ import { Suspense } from 'react';
 import About from './About';
 import Projects from './Projects';
 import WorkExperience from './WorkExperience';
+import Contact from './Contact';
+import Earth from './canvas/Earth';
 
 const MainContainer = () => {
 
@@ -16,7 +18,8 @@ const MainContainer = () => {
   };
 
   return (
-    <><Canvas
+    <>
+    <Canvas
       id="canvas"
       style={{ position: 'fixed' }}
       camera={{ position: [20, 3, 5], fov: 25 }}
@@ -26,6 +29,7 @@ const MainContainer = () => {
   
       <Suspense fallback={null}>
       <ReactLogo />
+      <Earth />
       </Suspense>
       <StarsAnimated />
     </Canvas>
@@ -34,6 +38,7 @@ const MainContainer = () => {
     <About />
     <Projects />
     <WorkExperience />
+    <Contact />
     </>
   )
 }

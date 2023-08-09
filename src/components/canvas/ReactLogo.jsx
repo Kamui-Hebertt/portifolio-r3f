@@ -4,7 +4,7 @@ import { useEffect, useMemo } from "react";
 
 
 const actionNames = [
-  'SphereAction',
+  // 'SphereAction',
   'TorusAction1',
   'TorusAction2',
   'TorusAction3',

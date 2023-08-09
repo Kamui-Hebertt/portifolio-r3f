@@ -7,6 +7,7 @@ import Hero from './Hero';
 import { Suspense } from 'react';
 import About from './About';
 import Projects from './Projects';
+import WorkExperience from './WorkExperience';
 
 const MainContainer = () => {
 
@@ -32,6 +33,7 @@ const MainContainer = () => {
     <Hero />
     <About />
     <Projects />
+    <WorkExperience />
     </>
   )
 }

@@ -6,6 +6,7 @@ import StarsAnimated from './StarsAnimated';
 import Hero from './Hero';
 import { Suspense } from 'react';
 import About from './About';
+import Projects from './Projects';
 
 const MainContainer = () => {
 
@@ -30,6 +31,7 @@ const MainContainer = () => {
     <Loader />
     <Hero />
     <About />
+    <Projects />
     </>
   )
 }

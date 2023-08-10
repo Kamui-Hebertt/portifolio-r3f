@@ -17,7 +17,7 @@ const Hero = ({isLoaded}) => {
         bounce: 0.5,
         satisfies:100,
         duration: 1 ,
-        delay: 1.5,
+        delay: 3.5,
       },
 
     },
@@ -35,7 +35,7 @@ const Hero = ({isLoaded}) => {
         bounce: 0.5,
         satisfies:100,
         duration: 0.8,
-        delay: 2.3,
+        delay: 4.3,
       },
 
     },

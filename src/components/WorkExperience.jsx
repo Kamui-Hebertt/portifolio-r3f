@@ -61,7 +61,7 @@ const WorkExperience = () => {
     JobTitle, companyName, datesWorked, jobDescription
   }) => {
     return(
-      <div className="border-2 w-[98%] glass-background rounded-lg flex flex-col glowing-shadow">
+      <div className="mb-[-10rem] border-2 w-[98%] glass-background rounded-lg flex flex-col glowing-shadow">
         <div className="text-white flex flex-col justify-start items-center mx-1 my-5">
           <h2 className="text-lg text-center mb-5">{JobTitle}</h2>
           <h3 className="text-lg text-center mb-5">{companyName}</h3>

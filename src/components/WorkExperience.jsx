@@ -9,9 +9,7 @@ import 'swiper/css/autoplay';
 const slides = [
   {
     id:0,
-    JobTitle: `full stack web developer \n
-  
-    freelacer-(Co-founder)
+    JobTitle: `full stack web developer freelacer-(Co-founder)
     `,
 
     companyName: "Mirai Software",

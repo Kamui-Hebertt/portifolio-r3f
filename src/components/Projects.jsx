@@ -21,28 +21,28 @@ const slides = [
     id: 1,
     imageSrc: 'https://uploaddeimagens.com.br/images/004/401/999/full/Screenshot_%281%29.png?1679456233',
     projectName: 'Mirai',
-    projectLink: '#',
+    projectLink: 'https://miraisoftware.com.br/',
     projectDescription:
-      'This is the description for project 2. You can talk about the technologies you used for the project, what you learned, or maybe even make a link to a blog post you wrote about the projec that goes into more details than can be placed in a card!',
+      'Our company current web site',
     githubLink: '#',
   },
   {
     id: 2,
     imageSrc: 'https://uploaddeimagens.com.br/images/004/316/589/full/3ebdbf24-b778-4848-bac5-889519778124.png?1674864175',
     projectName: 'Recipe app',
-    projectLink: '#',
+    projectLink: 'recipe-app-react-jade.vercel.app/',
     projectDescription:
-      'This is the description for project 3. You can talk about the technologies you used for the project, what you learned, or maybe even make a link to a blog post you wrote about the projec that goes into more details than can be placed in a card!',
-    githubLink: '#',
+      'A recipe app, developed by me and my team, RTL test was implemented in this projects, (You can sign in with any email and any password with at least 10 characters)',
+    githubLink: 'https://github.com/Kamui-Hebertt/recipe-app-react',
   },
   {
     id: 3,
     imageSrc: 'https://uploaddeimagens.com.br/images/004/572/013/full/Screenshot_%28205%29.png?1691632317',
     projectName: 'Dev launchers',
-    projectLink: '#',
+    projectLink: 'https://devlaunchers.org/',
     projectDescription:
-      'This is the description for project 4. You can talk about the technologies you used for the project, what you learned, or maybe even make a link to a blog post you wrote about the projec that goes into more details than can be placed in a card!',
-    githubLink: '#',
+      'I had a great participation in the construction of the site, I used react, strapi, monorepo and more',
+    githubLink: 'https://github.com/dev-launchers/dev-launchers-platform',
   },
 ]
 
@@ -69,7 +69,7 @@ const Projects = () => {
           <h2 className='text-center font-bold my-3'> {projectName}</h2>
           <p className='text-center mb-5'>{projectDescription}</p>
           <div className='flex justify-center mb-1'>
-            <a>
+            <a href={githubLink}>
               <img
                 src='https://img.icons8.com/material-outlined/24/61dbfb/github.png'
                 alt='github link'

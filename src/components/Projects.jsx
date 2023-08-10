@@ -8,19 +8,19 @@ import 'swiper/css/autoplay'
 import thumbNail from '../assets/thumbNail.jpg'
 
 const slides = [
-  {
-    id: 0,
-    imageSrc: thumbNail,
-    projectName: 'Project 1',
-    projectLink: '#',
-    projectDescription:
-      'This is the description for project 1. You can talk about the technologies you used for the project, what you learned, or maybe even make a link to a blog post you wrote about the projec that goes into more details than can be placed in a card! ',
-    githubLink: '#',
-  },
+  // {
+  //   id: 0,
+  //   imageSrc: thumbNail,
+  //   projectName: 'Project 1',
+  //   projectLink: '#',
+  //   projectDescription:
+  //     'This is the description for project 1. You can talk about the technologies you used for the project, what you learned, or maybe even make a link to a blog post you wrote about the projec that goes into more details than can be placed in a card! ',
+  //   githubLink: '#',
+  // },
   {
     id: 1,
-    imageSrc: 'https://picsum.photos/200?random=3',
-    projectName: 'Project 2',
+    imageSrc: 'https://uploaddeimagens.com.br/images/004/401/999/full/Screenshot_%281%29.png?1679456233',
+    projectName: 'Mirai',
     projectLink: '#',
     projectDescription:
       'This is the description for project 2. You can talk about the technologies you used for the project, what you learned, or maybe even make a link to a blog post you wrote about the projec that goes into more details than can be placed in a card!',
@@ -28,8 +28,8 @@ const slides = [
   },
   {
     id: 2,
-    imageSrc: 'https://picsum.photos/200?random=4',
-    projectName: 'Project 3',
+    imageSrc: 'https://uploaddeimagens.com.br/images/004/316/589/full/3ebdbf24-b778-4848-bac5-889519778124.png?1674864175',
+    projectName: 'Recipe app',
     projectLink: '#',
     projectDescription:
       'This is the description for project 3. You can talk about the technologies you used for the project, what you learned, or maybe even make a link to a blog post you wrote about the projec that goes into more details than can be placed in a card!',
@@ -37,8 +37,8 @@ const slides = [
   },
   {
     id: 3,
-    imageSrc: 'https://picsum.photos/200?random=5',
-    projectName: 'Project 4',
+    imageSrc: 'https://uploaddeimagens.com.br/images/004/572/013/full/Screenshot_%28205%29.png?1691632317',
+    projectName: 'Dev launchers',
     projectLink: '#',
     projectDescription:
       'This is the description for project 4. You can talk about the technologies you used for the project, what you learned, or maybe even make a link to a blog post you wrote about the projec that goes into more details than can be placed in a card!',

@@ -9,21 +9,46 @@ import 'swiper/css/autoplay';
 const slides = [
   {
     id:0,
-    JobTitle: "Job Title",
+    JobTitle: `full stack web developer \n
+  
+    freelacer-(Co-founder)
+    `,
 
-    companyName: "company name",
-    datesWorked: "2020 - 2023",
-    jobDescription: "dasdasdasdasdasdasdsaddas"
+    companyName: "Mirai Software",
+    datesWorked: "March 2021 to present",
+    jobDescription: `At Mirai Software Development, we craft cutting-edge web applications using technologies like React, Redux, Next.js, TypeScript, and Docker. Our
+    team pushes the boundaries of what's possible in web development, shaping the future of technology.
+    We also leverage tools like GitHub for collaboration, SCSS/Sass for stylish designs, and testing frameworks like Testing RTL for code reliability. Our
+    expertise extends to Node.js, MySQL, MongoDB, REST API, and GraphiQL for seamless data management.
+    Together, we're on an exhilarating journey, driving innovation in the web development industry.`
   },
 
   {
     id:1,
-    JobTitle: "Job Title",
+    JobTitle: "Front-end Developer (part-time)",
 
-    companyName: "company name",
-    datesWorked: "2020 - 2023",
-    jobDescription: "dasdasdasdasdasdasdsaddas"
+    companyName: "Pets IA ",
+    datesWorked: "December 2022 to present",
+    jobDescription: `Since I've been working part-time as a front-end developer at Pets IA. Collaborating with a talented team, our goal is to create a
+    captivating website for pet lovers. Using Vue and TypeScript, I bring visually stunning and intuitive web pages to life, celebrating our
+    love for furry companions.`
+    
   },
+
+
+  {
+    id:2,
+    JobTitle: "Front-end Developer (part-time)",
+
+    companyName: "Dev Launchers",
+    datesWorked: "March 2022 to present",
+    jobDescription: `I've also joined Dev Launchers as a part-time full-stack web developer. In this role, I engage in project management and prioritize
+    customer satisfaction. Alongside a dedicated team, we undertake exciting projects for clients, turning their visions into reality.
+    Utilizing technologies like Next.js, Node.js, Strapi and Docker, we build dynamic web solutions that exceed client expectations.
+    `
+    
+  },
+
 
  
 ]

@@ -16,8 +16,7 @@ const slides = [
     datesWorked: "March 2021 to present",
     jobDescription: `At Mirai Software Development, we craft cutting-edge web applications using technologies like React, Redux, Next.js, TypeScript, and Docker. Our
     team pushes the boundaries of what's possible in web development, shaping the future of technology.
-    We also leverage tools like GitHub for collaboration, SCSS/Sass for stylish designs, and testing frameworks like Testing RTL for code reliability. Our
-    expertise extends to Node.js, MySQL, MongoDB, REST API, and GraphiQL for seamless data management.
+ 
     `
   },
 

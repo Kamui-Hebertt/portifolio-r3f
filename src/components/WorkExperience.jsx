@@ -18,7 +18,7 @@ const slides = [
     team pushes the boundaries of what's possible in web development, shaping the future of technology.
     We also leverage tools like GitHub for collaboration, SCSS/Sass for stylish designs, and testing frameworks like Testing RTL for code reliability. Our
     expertise extends to Node.js, MySQL, MongoDB, REST API, and GraphiQL for seamless data management.
-    Together, we're on an exhilarating journey, driving innovation in the web development industry.`
+    `
   },
 
   {

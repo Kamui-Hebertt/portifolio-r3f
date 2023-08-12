@@ -19,6 +19,15 @@ const About = () => {
       }
     }, [controls, inView]);
 
+
+    const DowloadResume = () => {
+      const resumeFilePath = '/resume-en.pdf';
+      const downloadLink = document.createElement('a');
+      downloadLink.href = resumeFilePath;
+      downloadLink.download = 'resume-en.pdf'; 
+      downloadLink.click();
+    }
+
   return(
     <section className="relative w-screen h-screen mt-20">
       <motion.div
@@ -33,6 +42,7 @@ const About = () => {
         business, I excel in communication, leadership, and project management. I continuously update my skills to deliver
         top-notch solutions. I'm excited to contribute to innovative projects, learn from new experiences, and make a
         positive impact in the tech field. Let's connect and create something great!</p>
+        <button onClick={DowloadResume} className="w-30 h-10 hover-glowing-shadow-and-scale mt-3 pl-2  pr-2 ">Download Resume</button>
       </motion.div>
 
       <div className="absolute flex flex-col bottom-[13%] left-[50%] translate-x-[-50%]">

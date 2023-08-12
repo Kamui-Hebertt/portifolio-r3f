@@ -72,7 +72,7 @@ const WorkExperience = () => {
 
   return(
     <section className='relative w-screen h-screen overflow-hidden '>
-      <div className='w-full h-full flex flex-col justify-center items-center text-white z-10 my-5 text-14'>
+      <div className='w-full h-full flex flex-col justify-center items-center text-white z-10 my-5 text-11'>
         <h1 className='text-5xl lg:text-7xl mt-10 fredoka-font text-center mx-1'>
           Work
           <span className=' light-blue-text font-semibold '> Exp</span>

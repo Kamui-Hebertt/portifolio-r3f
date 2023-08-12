@@ -72,14 +72,14 @@ const WorkExperience = () => {
 
   return(
     <section className='relative w-screen h-screen overflow-hidden '>
-      <div className='w-full h-full flex flex-col justify-center items-center text-white z-10 my-5'>
+      <div className='w-full h-full flex flex-col justify-center items-center text-white z-10 my-5 text-10'>
         <h1 className='text-5xl lg:text-7xl mt-10 fredoka-font text-center mx-1'>
           Work
           <span className=' light-blue-text font-semibold '> Exp</span>
           erience
         </h1>
         <p className="mt-5">Swipe or drag the items</p>
-        <div className="w-[98%] lg:w-1/4 my-10">
+        <div className="w-[98%] lg:w-1/4 my-10 ">
           <Swiper
           grabCursor={true}
           spaceBetween={0}

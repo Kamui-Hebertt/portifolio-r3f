@@ -89,7 +89,7 @@ const Contact = () => {
   }, [controls, inView])
 
   return (
-    <section className='w-full h-full relative flex flex-col justify-center items-center overflow-hidden'>
+    <section className='w-full h-full relative flex flex-col justify-center items-center overflow-hidden mt-20'>
       <motion.div
         ref={ref}
         animate={controls}

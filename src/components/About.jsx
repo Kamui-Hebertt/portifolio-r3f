@@ -37,7 +37,7 @@ const About = () => {
       variants={aboutVariants}
       className="absolute left-[0%] mx-3 md:left-[10%] xl:left-[25%] md:w-1/2 xl:w-1/3 text-white py-3 glowing-shadow border rounded-lg text-center glass-background">
         <h1 className="text-5xl lg:text-7x1 fredoka-font">About <span className="light-blue-text font-semibold"> Me</span></h1>
-        <p className="mt-8 mx-3 text-base font-serif">'I'm a passionate and skilled technologist . I thrive on exploring new opportunities to learn and grow. In addition to
+        <p className="mt-8 mx-3 text-base font-serif">I'm a passionate and skilled technologist . I thrive on exploring new opportunities to learn and grow. In addition to
         my professional experience, I actively teach coding classes, giving back to the community. With my own freelance
         business, I excel in communication, leadership, and project management. I continuously update my skills to deliver
         top-notch solutions. I'm excited to contribute to innovative projects, learn from new experiences, and make a

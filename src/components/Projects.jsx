@@ -36,6 +36,7 @@ const slides = [
     githubLink: 'https://github.com/Kamui-Hebertt/recipe-app-react',
   },
   {
+  
     id: 3,
     imageSrc: 'https://uploaddeimagens.com.br/images/004/572/013/full/Screenshot_%28205%29.png?1691632317',
     projectName: 'Dev launchers',
@@ -43,6 +44,18 @@ const slides = [
     projectDescription:
       'I had a great participation in the construction of the site, I used react, strapi, monorepo and more',
     githubLink: 'https://github.com/dev-launchers/dev-launchers-platform',
+  },
+
+
+  {
+    
+    id: 4,
+    imageSrc: 'https://uploaddeimagens.com.br/images/004/604/188/original/Screenshot_%28248%29.png?1694475768',
+    projectName: 'Stumble',
+    projectLink: 'https://bright-front-stumble.vercel.app/',
+    projectDescription:
+      "I've developed this game when i was working for Bright, this game is unfinished because the company has changed its goals. I used react three fiber on this project. ",
+    githubLink: 'https://bright-front-stumble.vercel.app/',
   },
 ]
 
